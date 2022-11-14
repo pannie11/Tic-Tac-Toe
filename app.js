@@ -65,7 +65,7 @@ cells.forEach(function(cell) { //forEach calls a function for each element in an
                 cell.innerHTML = players[0]
                 board[currentCell] = players[0]
                 result.innerHTML = ''
-                result.innerHTML =  name2Str + " 's turn!" //Every time I click a cell, a comma gets added to the name. I have no idea why 
+                result.innerHTML =  name2Str + "'s turn!" //Every time I click a cell, a comma gets added to the name. I have no idea why 
             }
             else if (currentPlayer === players[1]){
                 let name1Str = name1()
@@ -73,7 +73,7 @@ cells.forEach(function(cell) { //forEach calls a function for each element in an
                 cell.innerHTML = players[1]
                 board[currentCell] = players[1]
                 result.innerHTML = ''
-                result.innerHTML = name1Str + " 's turn!"
+                result.innerHTML = name1Str + "'s turn!"
             } 
         }
        wins()
