@@ -1,0 +1,21 @@
+ * {
+    box-sizing: border-box;
+    padding: none;
+    margin: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+td {
+    background-color: lightgray;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+
